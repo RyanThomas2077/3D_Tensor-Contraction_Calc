@@ -1,2 +1,6 @@
-# 3D_Tensor-Contraction_Calc
-This calculator brings the idea of matrix multiplication to higher dimensions through the method of tensor contraction. Here, two 3D (3x3x3) tensors of inputted values are "contracted" across at one or two common axes such that the result is a single tensor of lower order (in this case, a 2D tensor if two common axes are chosen) or a single tensor of higher order (in this case, a 4D tensor if only one common axis is chosen)
+# Completed Calculator
+This is the completed calculator. Run the code in the Calcualtor.cpp file. It imports important functions from the FUNCTIONS.cpp and OPERATIONS.cpp file, so those are also needed to run the file.
+
+This is my first ever coding project at all. It's a very small project, but I thought it was interesting and very fun.
+
+Created by Ryan Thomas
