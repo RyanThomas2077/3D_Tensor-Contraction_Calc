@@ -3,4 +3,4 @@ This calculator brings the idea of matrix multiplication to higher dimensions th
 
 Go to the "Final_Completed_Calculator" branch to get the three files needed to run the calculator.
 
-Made by Ryan Thomas as first coding project
+Made by Ryan Thomas
