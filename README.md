@@ -1,5 +1,5 @@
 # 3D Tensor Contraction Operator
-This calculator brings the idea of matrix multiplication to higher dimensions through tensor contraction. Here, two 3D (3x3x3) tensors of user-inputted values are "contracted" across at one or two common axes such that the result is a single tensor of lower order (in this case, a 2D tensor if two common axes are chosen) or a single tensor of higher order (in this case, a 4D tensor if only one common axis is chosen)
+This calculator brings the idea of matrix multiplication to higher dimensions through tensor contraction. Here, two 3D (3x3x3) tensors of user-inputted values are "contracted" across at one or two common axes such that the result is a single tensor of lower order (in this case, a 2D tensor if two common axes are chosen) or a single tensor of higher order (in this case, a 4D tensor if only one common axis is chosen).<sup>1,2,3</sup>
 
 <p align="center">
   <img src="Screenshot_20251026_235724.png" />
