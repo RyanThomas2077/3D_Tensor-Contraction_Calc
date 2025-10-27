@@ -11,15 +11,18 @@ This calculator brings the idea of matrix multiplication to higher dimensions th
     * (personally tested using C++23 with g++ compiler on Arch Linux 2025.07.01)
  
 # Overview
-### Applications of Tensor Contraction:
+### <ins> Applications of Tensor Contraction:</ins>
 * Convolutional Neural Networks (CNNs) hold three dimensional pieces of data where a 3D tensor filter is contracted over patches of input images to make a single output value.<sup>4</sup>
 * Tensor-network Quantum Circuits can be used to implement quantum computers. By treating a tensor as a quantum logic gate, one can contract networks of these gates, where each index is a qubit, to extract information.<sup>5</sup>
 * For neuroscience, electroencephalography (EEG) and magnetoencephalography (MEG) techniques for brainwave analysis can be efficiently represented as multi-dimensional tensors where meaningful patters can be outputted via tensor contraction.<sup>6</sup>
 
-### Project Summary: 
-This C++ program aims to implement the contraction operation through allowing the user to input a total of 54 integer values into two 3x3x3 tensors. From there, different combinations of the ***i,j,*** & ***k*** axes of each tensor can be chosen to be contracted over.
+### <ins> Project Summary:</ins>
+This C++ program aims to implement the contraction operation through allowing the user to input a total of 54 integer values into two 3x3x3 tensors. From there, different combinations of the ***i,j,*** & ***k*** axes of each tensor can be chosen to be contracted over. In the code, maps are used in an attempt to efficiently organize all of the different possible contraction combinations the user may choose.
 
-From here, the chosen axes to be contracted over are eliminated whilst the axes **not** contracted over undergo an operation akin to matrix multiplication.
+From here, the chosen axes to be contracted over are eliminated whilst the axes **not** contracted over undergo an operation akin to matrix multiplication:
+<p align="center">
+  <img src="Screenshot_20251027_011439.png" />
+</p>
 
 # References
 * <sup>1</sup>['Introduction to Tensors: Tensor Product, Addition and Contraction of Tensors' - Alexander Fufaev (YouTube)](https://www.youtube.com/watch?v=uaZWADpdWuQ)
