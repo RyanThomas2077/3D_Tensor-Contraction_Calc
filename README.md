@@ -1,7 +1,5 @@
 # 3DTensorCon (Tensor Contraction Program)
 This calculator brings the idea of matrix multiplication to higher dimensions through the method of tensor contraction. Here, two 3D (3x3x3) tensors of inputted values are "contracted" across at one or two common axes such that the result is a single tensor of lower order (in this case, a 2D tensor if two common axes are chosen) or a single tensor of higher order (in this case, a 4D tensor if only one common axis is chosen)
 
-![alt text][logo]
-logo: https://github.com/RyanThomas2077/3D_Tensor-Contraction_Calc/Screenshot_20251026_235724.png
+![ERROR: Picture Incorrectly Appears](Screenshot_20251026_235724.png)
 
-Made by Ryan Thomas
